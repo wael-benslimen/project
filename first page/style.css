@@ -37,8 +37,7 @@ body{
     align-items: center;
     color: white;
     justify-content: space-between;
-    padding-top: 15%;
-    padding: 15% 15%;
+    padding: 10% 15%;
     flex-wrap: wrap;
 }
 .hero img{
