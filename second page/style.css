@@ -1,11 +1,33 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: 'Arial', sans-serif;
-body{
-    display: flex;
-    
 }
+body{
+    background-image: url(./images/Design.png);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+/* navbar */
+.navbar{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 2%;
+    background-color: #597D7C;
+        
+}
+.navbar ul{
+    display:flex ;
+    gap: 10%;
+    list-style: none;
+}
+/* end navbar */
 /* info */
 .info{
     display: flex;
@@ -122,5 +144,7 @@ body{
 .container{
     display: flex;
     padding: 0% 5%;
-    /* width: 900px; */
+}
+.black{
+    color: black;
 }
