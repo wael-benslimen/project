@@ -4,6 +4,28 @@
     padding: 0px;
     font-family: 'Arial', sans-serif;
 }
+/* func */
+@keyframes fadeInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ } 
+ @keyframes fadeInup {
+    0% {
+       opacity: 0;
+       transform: translateY(40px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ }
+
 body{
     background-image: url(./images/Design.png);
     background-size: 100% 100%;
@@ -21,12 +43,21 @@ body{
     justify-content: center;
     padding: 1% 2%;
     background-color: #597D7C;
+    animation: fadeInDown 1s;
     
 }
 .navbar ul{
     display:flex ;
     gap: 10%;
     list-style: none;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li:hover{
+    text-decoration: underline;
+    transform: translateY(10px);
 }
 /* end navbar */
 /* hero */
@@ -39,6 +70,7 @@ body{
     justify-content: space-between;
     padding: 10% 15%;
     flex-wrap: wrap;
+    animation: fadeInup 3s;
 }
 .hero img{
     width: 200px;
@@ -71,5 +103,9 @@ body{
     border-radius: 15px;
     padding: 2px;
 
+}
+.discord button a{
+    color: white;
+    text-decoration: none;
 }
 /* end hero */

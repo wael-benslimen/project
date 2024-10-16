@@ -4,7 +4,7 @@
 }
 body{
     background-image: url(./images/Design.png);
-    background-size: 100% 50%;
+    background-size: 100% 120%;
     background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
@@ -12,6 +12,28 @@ body{
     justify-content: center;
     color: white;
 }
+/* func */
+@keyframes fadeInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ } 
+ @keyframes fadeInup {
+    0% {
+       opacity: 0;
+       transform: translateY(40px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ }
+ /* end func */
 /* navbar */
 .navbar{
     color: white;
@@ -20,12 +42,21 @@ body{
     justify-content: center;
     padding: 1% 2%;
     background-color: #597D7C;
-        
+    animation: fadeInDown 1s;
+    
 }
 .navbar ul{
     display:flex ;
     gap: 10%;
     list-style: none;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li:hover{
+    text-decoration: underline;
+    transform: translateY(10px);
 }
 /* end navbar */
 /* info */
@@ -75,6 +106,7 @@ body{
     border: solid black 1px;
     border-radius: 15px;
     background-color: #f7f8fd;
+    color: black;
     padding: 1% 2%;
 }
 .bar{
@@ -132,7 +164,6 @@ body{
     gap: 10%;
     width: 50%;
     margin-top: 5%;
-    margin-bottom: 50%;
 }
 .left{
     display: flex;
@@ -144,6 +175,7 @@ body{
 .container{
     display: flex;
     padding: 0% 5%;
+    animation: fadeInup 2s;
 }
 .black{
     color: black;
