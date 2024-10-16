@@ -1,0 +1,76 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial', sans-serif;
+}
+body{
+    background-image: url(./images/Design.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+/* navbar */
+.navbar{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 2%;
+    background-color: #597D7C;
+    
+}
+.navbar ul{
+    display:flex ;
+    gap: 10%;
+    list-style: none;
+}
+/* end navbar */
+/* hero */
+.hero{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    padding-top: 15%;
+    padding: 15% 15%;
+    flex-wrap: wrap;
+}
+.hero img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+}
+.lefthero{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.lefthero h1{
+    font-size: 40px;
+    font-family: cursive;
+}
+.lefthero button{
+    width: 100px;
+}
+.discord{
+    display: flex;
+    gap: 15px;
+}
+.discord span{
+    color: green;
+}
+.discord button{
+    background-color: #101c1b;
+    color: white;
+    border-radius: 15px;
+    padding: 2px;
+
+}
+/* end hero */

@@ -1,0 +1,67 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial', sans-serif;
+}
+body{
+    background-image: url(./images/Design.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+/* nav bar */
+.navbar{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 2%;
+    background-color: #597D7C;
+    
+}
+.navbar ul{
+    display:flex ;
+    gap: 10%;
+    list-style: none;
+}
+/* end navbar */
+/* main */
+/* left */
+.left img{
+    width: 50px;
+    border-radius: 50%;
+    border: solid;
+}
+.main h1{
+    color: white;
+} 
+.left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 3%;
+}
+/* end left */
+/* right */
+.right img{
+    width: 50px;
+    border-radius: 50%;
+    border: solid;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 3%;
+}
+/* end right */
+.main{
+    display: flex;
+    padding: 0% 5% 5% 5%;
+}
