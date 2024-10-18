@@ -91,10 +91,15 @@ body {
 
 
 .box {
-    width: 300px;
+    width: 400px;
     height: 200px;
     background-color: lightblue;
     border-radius: 10px;
+}
+
+.box video {
+    width: 400px;
+    height: 200px;
 }
 
 .project-samples-header {

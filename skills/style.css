@@ -2,7 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Arial', sans-serif;
+    /* font-family: 'Arial', sans-serif; */
 }
 body{
     background-image: url(./images/Design.png);
@@ -69,13 +69,14 @@ body{
 }
 .main h1{
     color: white;
+    margin-top: 20px;
 } 
 .left{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 3%;
+    padding: 6%;
 }
 /* end left */
 /* right */
@@ -89,7 +90,7 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 3%;
+    padding: 6%;
 }
 /* end right */
 .main{
